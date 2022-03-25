@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>LuxTrips</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220326001616">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div data-lp class="header__wrapper">
+				<div class="header__container">
+					<div class="header__body">
+						<a href="index.html" data-da=".header__body,768" class="header__logo"><img src="img/logo.svg" alt="logo"></a>
+						<div class="header__menu menu">
+							<button type="button" class="menu__icon icon-menu"><span></span></button>
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item"><a href="index.html" class="menu__link">Home</a></li>
+									<li class="menu__item"><a href="pack.html" class="menu__link">Luxury packages</a></li>
+									<li class="menu__item"><a href="booking.html" class="menu__link">Book with us</a></li>
+									<li class="menu__item"><a href="why.html" class="menu__link">Why Lux Trips</a></li>
+									<li class="menu__item"><a href="contact.html" class="menu__link">Contact</a></li>
+									<li class="menu__item"><a href="client.html" class="menu__link">Client Area</a></li>
+								</ul>
+							</nav>
+						</div>
+						<a href="#" data-da=".header__body,768" data-popup="#popup" class="header__callback btn btn_b"> Call Me <span>&nbsp;Back</span></a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__main-block main-block">
+				<div class="main-block__container">
+					<div class="main-block__body">
+						<div class="main-block__find">find your journey</div>
+						<div class="main-block__table">
+							<form data-one-select action="#" class="main-block__form form-main">
+								<div class="form-main__wrapper">
+									<div class="form-main__row form-main__row_first">
+										<div class="form-main__destination">
+											<label for="sel_dest" class="form-main__label label-main">
+												<span class="label-main__text label-main__text_dest">Destination</span>
+											</label>
+											<select id="sel_dest" name="form[]" class="form">
+												<option value="" selected>Where are you going?</option>
+												<option value="1">Africa</option>
+												<option value="2">Asia</option>
+												<option value="3">Europe</option>
+												<option value="4">North America</option>
+												<option value="5">South America</option>
+												<option value="6">Antarctia</option>
+												<option value="7">Australia</option>
+											</select>
+										</div>
+										<div class="form-main__type">
+											<label for="sel_type" class="form-main__label label-main">
+												<span class="label-main__text label-main__text_type">Travel type</span>
+											</label>
+											<select id="sel_type" name="form[]" class="form">
+												<option value="1" selected>Adventure Travel</option>
+												<option value="2">Relax Travel</option>
+												<option value="3">Romantic Travel</option>
+												<option value="4">Winter Travel</option>
+											</select>
+										</div>
+									</div>
+									<div class="form-main__row">
+										<div class="form-main__date">
+											<label for="sel_date" class="form-main__label label-main label-main_pl">
+												<span class="label-main__text label-main__text_date">When</span>
+											</label>
+											<input type="text" id="my-id" class="form-main__input">
+										</div>
+										<div class="form-main__traveller">
+											<label for="sel_traveller" class="form-main__label label-main">
+												<span class="label-main__text label-main__text_travellers">Travellers</span>
+											</label>
+											<select id="sel_traveller" name="form[]" class="form">
+												<option value="" selected>2 Persons</option>
+												<option value="1">1 Person</option>
+												<option value="2">2 Persons</option>
+												<option value="3">3 Persons</option>
+												<option value="4">4 Persons</option>
+												<option value="5">5 Persons</option>
+												<option value="6">6 Persons</option>
+												<option value="7">7 Persons</option>
+												<option value="8">8 Persons</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<a href="" class="form-main__button btn btn_find"><img src="img/icons/find.svg" alt="find"><span>Find</span></a>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__top top">
+				<div class="top__container">
+					<h1 class="top__title title title-block">Top Rated <br> Experiences</h1>
+					<div class="top__body">
+						<div class="top__categories">
+							<span data-filter="all" class="top__category _active">World</span>
+							<span data-filter="filter1" class="top__category">Africa</span>
+							<span data-filter="filter2" class="top__category">Asia</span>
+							<span data-filter="filter3" class="top__category">Europe</span>
+							<span data-filter="filter2" class="top__category">North America</span>
+							<span data-filter="filter1" class="top__category">South America</span>
+							<span data-filter="filter3" class="top__category">Antarctica</span>
+							<span data-filter="filter1" class="top__category">Australia</span>
+						</div>
+						<div class="top__slider swiper">
+							<div class="top__wrapper swiper-wrapper">
+								<article class="top__slide swiper-slide card filter2">
+									<a href="" class="card__link">
+										<picture><source srcset="img/top/01.webp" type="image/webp"><img class="card__bg" src="img/top/01.jpg" alt="winter"></picture>
+										<div class="card__body">
+											<div class="card__content">
+												<div class="card__dest dest-card">
+													<div class="dest-card__top">
+														<div class="dest-card__icon">
+															<img src="img/top/location.svg" alt="location">
+														</div>
+														<div class="dest-card__country">Austria</div>
+													</div>
+													<h3 class="dest-card__place">Winter Park Ski Holiday</h3>
+												</div>
+												<div class="card__price price-card">
+													<div class="price-card__content">
+														<div class="price-card__from">From</div>
+														<div class="price-card__price">€ 1490</div>
+													</div>
+													<a href="#" class="price-card__button btn btn_b">customise</a>
+												</div>
+											</div>
+											<div class="card__rating">
+												<div class="card__number">4.0</div>
+												<div class="card__items">
+													<div class="card__item">
+														<img src="img/top/diamond_b.svg" alt="diamond">
+													</div>
+													<div class="card__item">
+														<img src="img/top/diamond_f.svg" alt="diamond">
+													</div>
+													<div class="card__item">
+														<img src="img/top/diamond_f.svg" alt="diamond">
+													</div>
+													<div class="card__item">
+														<img src="img/top/diamond_f.svg" alt="diamond">
+													</div>
+													<div class="card__item">
+														<img src="img/top/diamond_f.svg" alt="diamond">
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+								</article>
+								<article class="top__slide swiper-slide card filter1">
+									<a href="#" class="card__link">
+										<picture><source srcset="img/top/02.webp" type="image/webp"><img class="card__bg" src="img/top/02.jpg" alt="winter"></picture>
+										<div class="card__body">
+											<div class="card__content">
+												<div class="card__dest dest-card">
+													<div class="dest-card__top">
+														<div class="dest-card__icon">
+															<img src="img/top/location.svg" alt="location">
+														</div>
+														<div class="dest-card__country">Peru</div>
+													</div>
+													<h3 class="dest-card__place">Machu Picchu</h3>
+												</div>
+												<div class="card__price price-card">
+													<div class="price-card__content">
+														<div class="price-card__from">From</div>
+														<div class="price-card__price">€ 2300</div>
+													</div>
+													<a href="#" class="price-card__button btn btn_b price-card__button_show">customise</a>
+												</div>
+											</div>
+											<div class="card__rating">
+												<div class="card__number">5.0</div>
+												<div class="card__items">
+													<div class="card__item">
+														<img src="img/top/diamond_f.svg" alt="diamond">
+													</div>
+													<div class="card__item">
+														<img src="img/top/diamond_f.svg" alt="diamond">
+													</div>
+													<div class="card__item">
+														<img src="img/top/diamond_f.svg" alt="diamond">
+													</div>
+													<div class="card__item">
+														<img src="img/top/diamond_f.svg" alt="diamond">
+													</div>
+													<div class="card__item">
+														<img src="img/top/diamond_f.svg" alt="diamond">
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+								</article>
+								<article class="top__slide swiper-slide card filter1">
+									<a href="#" class="card__link">
+										<picture><source srcset="img/top/03.webp" type="image/webp"><img class="card__bg" src="img/top/03.jpg" alt="winter"></picture>
+										<div class="card__body">
+											<div class="card__content">
+												<div class="card__dest dest-card">
+													<div class="dest-card__top">
+														<div class="dest-card__icon">
+															<img src="img/top/location.svg" alt="location">
+														</div>
+														<div class="dest-card__country">Croatia</div>
+													</div>
+													<h3 class="dest-card__place">Hvar</h3>
+												</div>
+												<div class="card__price price-card">
+													<div class="price-card__content">
+														<div class="price-card__from">From</div>
+														<div class="price-card__price">€ 4500</div>
+													</div>
+													<a href="#" class="price-card__button btn btn_b">customise</a>
+												</div>
+											</div>
+											<div class="card__rating">
+												<div class="card__number">4.0</div>
+												<div class="card__items">
+													<div class="card__item">
+														<img src="img/top/diamond_b.svg" alt="diamond">
+													</div>
+													<div class="card__item">
+														<img src="img/top/diamond_f.svg" alt="diamond">
+													</div>
+													<div class="card__item">
+														<img src="img/top/diamond_f.svg" alt="diamond">
+													</div>
+													<div class="card__item">
+														<img src="img/top/diamond_f.svg" alt="diamond">
+													</div>
+													<div class="card__item">
+														<img src="img/top/diamond_f.svg" alt="diamond">
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+								</article>
+								<article class="top__slide swiper-slide card filter1">
+									<a href="#" class="card__link">
+										<picture><source srcset="img/top/04.webp" type="image/webp"><img class="card__bg" src="img/top/04.jpg" alt="winter"></picture>
+										<div class="card__body">
+											<div class="card__content">
+												<div class="card__dest dest-card">
+													<div class="dest-card__top">
+														<div class="dest-card__icon">
+															<img src="img/top/location.svg" alt="location">
+														</div>
+														<div class="dest-card__country">Jordan</div>
+													</div>
+													<h3 class="dest-card__place">Wadi Musa</h3>
+												</div>
+												<div class="card__price price-card">
+													<div class="price-card__content">
+														<div class="price-card__from">From</div>
+														<div class="price-card__price">€ 4500</div>
+													</div>
+													<a href="#" class="price-card__button btn btn_b">customise</a>
+												</div>
+											</div>
+											<div class="card__rating">
+												<div class="card__number">4.0</div>
+												<div class="card__items">
+													<div class="card__item">
+														<img src="img/top/diamond_b.svg" alt="diamond">
+													</div>
+													<div class="card__item">
+														<img src="img/top/diamond_f.svg" alt="diamond">
+													</div>
+													<div class="card__item">
+														<img src="img/top/diamond_f.svg" alt="diamond">
+													</div>
+													<div class="card__item">
+														<img src="img/top/diamond_f.svg" alt="diamond">
+													</div>
+													<div class="card__item">
+														<img src="img/top/diamond_f.svg" alt="diamond">
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+								</article>
+								<article class="top__slide swiper-slide card filter3">
+									<a href="#" class="card__link">
+										<picture><source srcset="img/top/05.webp" type="image/webp"><img class="card__bg" src="img/top/05.jpg" alt="winter"></picture>
+										<div class="card__body">
+											<div class="card__content">
+												<div class="card__dest dest-card">
+													<div class="dest-card__top">
+														<div class="dest-card__icon">
+															<img src="img/top/location.svg" alt="location">
+														</div>
+														<div class="dest-card__country">Peru</div>
+													</div>
+													<h3 class="dest-card__place">Machu Picchu</h3>
+												</div>
+												<div class="card__price price-card">
+													<div class="price-card__content">
+														<div class="price-card__from">From</div>
+														<div class="price-card__price">€ 2300</div>
+													</div>
+													<a href="#" class="price-card__button btn btn_b">customise</a>
+												</div>
+											</div>
+											<div class="card__rating">
+												<div class="card__number">5.0</div>
+												<div class="card__items">
+													<div class="card__item">
+														<img src="img/top/diamond_f.svg" alt="diamond">
+													</div>
+													<div class="card__item">
+														<img src="img/top/diamond_f.svg" alt="diamond">
+													</div>
+													<div class="card__item">
+														<img src="img/top/diamond_f.svg" alt="diamond">
+													</div>
+													<div class="card__item">
+														<img src="img/top/diamond_f.svg" alt="diamond">
+													</div>
+													<div class="card__item">
+														<img src="img/top/diamond_f.svg" alt="diamond">
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+								</article>
+							</div>
+							<button type="button" class="slider-arrow slider-arrow_prev"></button>
+							<button type="button" class="slider-arrow slider-arrow_next"></button>
+						</div>
+					</div>
+			</section>
+			<section class="page__lux lux">
+				<div class="lux__container">
+					<div class="lux__header">
+						<h2 class="lux__title title">Luxury <br> Packages</h2>
+						<a href="" class="lux__button btn btn_b">view all</a>
+					</div>
+					<article data-da=".lux__wrapper,768" class="lux__pack pack-lux pack-lux_mt">
+						<div class="pack-lux__image">
+							<picture><source srcset="img/lux/02.webp" type="image/webp"><img src="img/lux/02.jpg" alt="image"></picture>
+						</div>
+						<div class="pack-lux__wrapper">
+							<h3 class="pack-lux__title">Best Winter Destinations</h3>
+						</div>
+						<div class="pack-lux__body">
+							<a href="" class="pack-lux__content">
+								<div class="pack-lux__number">34</div>
+								<div class="pack-lux__text">places</div>
+								<img src="img/lux/arrow_right.svg" alt="arrow">
+							</a>
+						</div>
+					</article>
+					<article data-da=".lux__wrapper,768" class="lux__pack pack-lux">
+						<div class="pack-lux__image">
+							<picture><source srcset="img/lux/04.webp" type="image/webp"><img src="img/lux/04.jpg" alt="image"></picture>
+						</div>
+						<div class="pack-lux__wrapper">
+							<h3 class="pack-lux__title">The world's extraordinary places</h3>
+						</div>
+						<div class="pack-lux__body">
+							<a href="" class="pack-lux__content">
+								<div class="pack-lux__number">29</div>
+								<div class="pack-lux__text">places</div>
+								<img src="img/lux/arrow_right.svg" alt="arrow">
+							</a>
+						</div>
+					</article>
+					<article data-da=".lux__wrapper,768" class="lux__pack pack-lux pack-lux_mb ">
+						<div class="pack-lux__image">
+							<picture><source srcset="img/lux/01.webp" type="image/webp"><img src="img/lux/01.jpg" alt="image"></picture>
+						</div>
+						<div class="pack-lux__wrapper">
+							<h3 class="pack-lux__title">New destinations for 2022</h3>
+						</div>
+						<div class="pack-lux__body">
+							<a href="" class="pack-lux__content">
+								<div class="pack-lux__number">47</div>
+								<div class="pack-lux__text">places</div>
+								<img src="img/lux/arrow_right.svg" alt="arrow">
+							</a>
+						</div>
+					</article>
+					<article data-da=".lux__wrapper,768" class="lux__pack pack-lux">
+						<div class="pack-lux__image">
+							<picture><source srcset="img/lux/03.webp" type="image/webp"><img src="img/lux/03.jpg" alt="image"></picture>
+						</div>
+						<div class="pack-lux__wrapper">
+							<h3 class="pack-lux__title">Your health is matter</h3>
+						</div>
+						<div class="pack-lux__body">
+							<a href="" class="pack-lux__content">
+								<div class="pack-lux__number">29</div>
+								<div class="pack-lux__text">places</div>
+								<img src="img/lux/arrow_right.svg" alt="arrow">
+							</a>
+						</div>
+					</article>
+					<article data-da=".lux__wrapper,768" class="lux__pack pack-lux pack-lux_mb">
+						<div class="pack-lux__image">
+							<picture><source srcset="img/lux/05.webp" type="image/webp"><img src="img/lux/05.jpg" alt="image"></picture>
+						</div>
+						<div class="pack-lux__wrapper">
+							<h3 class="pack-lux__title">Experiences Away From Crowd</h3>
+						</div>
+						<div class="pack-lux__body">
+							<a href="" class="pack-lux__content">
+								<div class="pack-lux__number">168</div>
+								<div class="pack-lux__text">places</div>
+								<img src="img/lux/arrow_right.svg" alt="arrow">
+							</a>
+						</div>
+					</article>
+					<div class="lux__slider swiper">
+						<div class="lux__wrapper swiper-wrapper">
+						</div>
+						<button type="button" class="slider-arrow slider-arrow_prev"></button>
+						<button type="button" class="slider-arrow slider-arrow_next"></button>
+					</div>
+				</div>
+			</section>
+			<section class="page__book book">
+				<div class="book__container">
+					<h2 class="book__title title title-block">Book <br> With Us</h2>
+					<div class="book__body">
+						<div class="book__item service">
+							<a href="" class="service__body">
+								<div class="service__image">
+									<picture><source srcset="img/book/01.webp" type="image/webp"><img src="img/book/01.jpg" alt="service"></picture>
+								</div>
+								<div class="service__text">Supercars</div>
+							</a>
+						</div>
+						<div class="book__item service">
+							<a href="" class="service__body">
+								<div class="service__image">
+									<picture><source srcset="img/book/02.webp" type="image/webp"><img src="img/book/02.jpg" alt="service"></picture>
+								</div>
+								<div class="service__text">Hotels</div>
+							</a>
+						</div>
+						<div class="book__item service">
+							<a href="" class="service__body">
+								<div class="service__image">
+									<picture><source srcset="img/book/03.webp" type="image/webp"><img src="img/book/03.jpg" alt="service"></picture>
+								</div>
+								<div class="service__text">Villas</div>
+							</a>
+						</div>
+						<div class="book__item service">
+							<a href="" class="service__body">
+								<div class="service__image">
+									<picture><source srcset="img/book/04.webp" type="image/webp"><img src="img/book/04.jpg" alt="service"></picture>
+								</div>
+								<div class="service__text">Yachts</div>
+							</a>
+						</div>
+						<div class="book__item service">
+							<a href="" class="service__body">
+								<div class="service__image">
+									<picture><source srcset="img/book/05.webp" type="image/webp"><img src="img/book/05.jpg" alt="service"></picture>
+								</div>
+								<div class="service__text">Private <br> Helicopter</div>
+							</a>
+						</div>
+						<div class="book__item service">
+							<a href="" class="service__body">
+								<div class="service__image">
+									<picture><source srcset="img/book/06.webp" type="image/webp"><img src="img/book/06.jpg" alt="service"></picture>
+								</div>
+								<div class="service__text">Private <br> Jet</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__why why">
+				<div class="why__container">
+					<div class="why__info info">
+						<h2 class="info__title title">Why <br> Lux Trips</h2>
+						<div class="info__text">As Travel Designer, we know the ins and outs of travel from who to work with, where to go, when to book, and which restaurant provides the most authentic cuisine. </div>
+					</div>
+					<div class="why__info info">
+						<h2 class="info__title info__title_s">Exclusive knowledge to provide the best of the best to clients</h2>
+						<div class="info__text">Our area of expertise ranges from luxury resorts and villas/chalets holiday bookings, private yacht and jet charters, to exclusive tours and personalized journey planning. </div>
+					</div>
+					<div class="why__bottom">
+						<div class="why__image">
+							<picture><source srcset="img/why/pin_4.webp" type="image/webp"><img src="img/why/pin_4.png" alt="image"></picture>
+						</div>
+						<div class="why__content">
+							<div class="why__text why__text_s">We craft and plan unique itineraries tailored to customers’ interests and with strong attention to detail.</div>
+							<a href="" class="why__button btn btn_b">help me plan a trip</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__custom custom">
+				<div class="custom__container">
+					<h2 class="custom__title title">Customise your trip with us</h2>
+					<div class="custom__body">
+						<div class="custom__row">
+							<div class="custom__number">
+								<div class="custom__order">1</div>
+							</div>
+							<div class="custom__content">
+								<div class="custom__subtitle">Describe your dream trip</div>
+								<div class="custom__text">Let us know what your perfect vacation is. Destinations, preferences, and personal interests. </div>
+							</div>
+						</div>
+						<div class="custom__row">
+							<div class="custom__number">
+								<div class="custom__order">2</div>
+							</div>
+							<div class="custom__content">
+								<div class="custom__subtitle">Get matched</div>
+								<div class="custom__text">Our team will create perfect travel itinerary for you, based on your personalized needs and wishes.</div>
+							</div>
+						</div>
+						<div class="custom__row">
+							<div class="custom__number">
+								<div class="custom__order">3</div>
+							</div>
+							<div class="custom__content">
+								<div class="custom__subtitle">Book your vacation</div>
+								<div class="custom__text">Confirm your trip only when you are completely satisfied with the proposed travel plan. </div>
+							</div>
+						</div>
+					</div>
+					<div class="custom__wrapper">
+						<fieldset class="custom__button super-btn super-btn_black">
+							<legend class="super-btn__image">
+								<img src="img/custom/decoration_top.svg" alt="decoration">
+							</legend>
+							<a href="" class="super-btn__button btn btn_big">Start a trip request</a>
+						</fieldset>
+					</div>
+					<div class="custom__condition">It’s Free! - no credit card required</div>
+				</div>
+			</section>
+			<section class="page__get get">
+				<div class="get__container">
+					<div class="get__wrapper">
+						<h2 class="get__title title">Get weekly inspiration and expert advice</h2>
+						<div class="get__text">Sign up for our Weekly Newsletter</div>
+						<form class="get__form" action="#">
+							<input data-required="email" autocomplete="off" type="text" name="form[]" data-error="Enter e-mail correctly" placeholder="Email address" class="input">
+							<button type="submit" class="get__button btn btn_white btn_pseudow">Subscribe</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<a href="index.html" class="footer__logo"><img src="img/logo.svg" alt="logo"></a>
+				<div class="footer__body">
+					<div class="footer__menu footer__menu_l menu-footer">
+						<nav class="menu-footer__body">
+							<ul class="menu-footer__list">
+								<li class="menu-footer__item"><a href="pack.html" class="menu-footer__link">Luxury packages</a></li>
+								<li class="menu-footer__item"><a href="booking.html" class="menu-footer__link">Book with us</a></li>
+							</ul>
+						</nav>
+					</div>
+					<a href="#" data-popup="#popup" class="footer__callback btn btn_b">Call Me <span>&nbsp;Back</span></a>
+					<div class="footer__menu footer__menu_r menu-footer">
+						<nav class="menu-footer__body">
+							<ul class="menu-footer__list">
+								<li class="menu-footer__item"><a href="why.html" class="menu-footer__link">Why Lux Trips</a></li>
+								<li class="menu-footer__item"><a href="contact.html" class="menu-footer__link">Contact</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom bottom-footer">
+				<div class="bottom-footer__container">
+					<div class="bottom-footer__item">© 2021 All Rights Reserved <span>&nbsp;|&nbsp;</span> <a href="" class="bottom-footer__link">Luxtrips</a></div>
+					<div class="bottom-footer__item">
+						<a href="" class="bottom-footer__link">Company Site</a>
+						<span>&nbsp;|&nbsp;</span>
+						<a href="" class="bottom-footer__link">Privacy Policy</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">Close</button>
+				<div class="popup__text">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="js/app.min.js?_v=20220326001616"></script>
+</body>
+
+</html>
